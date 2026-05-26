@@ -1,0 +1,49 @@
+# Zibo Unique
+
+Zibo Unique is an industrial food processing machinery manufacturer for vegetable, seafood, meat and central kitchen production.
+
+Primary contact:
+- Email: Miameng@zibounique.com
+- WhatsApp: +86 13058068287
+- WhatsApp link: https://wa.me/8613058068287
+
+Core pages:
+- Home: https://zibounique.mintlify.app/
+- About Us: https://zibounique.mintlify.app/about/
+- Products: https://zibounique.mintlify.app/products/
+- Seafood Processing Machines: https://zibounique.mintlify.app/products/seafood-processing-machines/
+- Vegetable Processing Machines: https://zibounique.mintlify.app/products/vegetable-processing-machines/
+- Complete Processing Lines: https://zibounique.mintlify.app/solutions/complete-processing-lines/
+- Applications: https://zibounique.mintlify.app/applications/
+- Contact: https://zibounique.mintlify.app/contact/
+
+Product categories:
+- Vegetable Processing Machines
+- Seafood Processing Machines
+- Meat Processing Machines
+- Central Kitchen Equipment
+- Potato Processing Machines
+- Packing and Weighing Machines
+- Complete Processing Lines
+
+Target customers:
+- Overseas food processing factories
+- Central kitchens and ready-meal plants
+- Seafood processing plants
+- Fruit and vegetable processing plants
+
+Priority markets:
+- Middle East
+- Southeast Asia
+- Europe
+- Latin America
+
+Quotation information buyers should provide:
+- Raw material and product size range
+- Required hourly capacity
+- Processing steps needed
+- Factory space or layout limits
+- Water, drainage, and power conditions
+- Packing method and final product format
+
+TODO: Replace https://zibounique.mintlify.app with the final independent domain after launch.
