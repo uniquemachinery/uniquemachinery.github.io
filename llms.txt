@@ -16,6 +16,7 @@ Core pages:
 - Complete Processing Lines: https://uniquemachinery.github.io/solutions/complete-processing-lines/
 - Applications: https://uniquemachinery.github.io/applications/
 - Contact: https://uniquemachinery.github.io/contact/
+- Privacy Policy: https://uniquemachinery.github.io/privacy-policy/
 
 Product categories:
 - Vegetable Processing Machines
@@ -46,4 +47,4 @@ Quotation information buyers should provide:
 - Water, drainage, and power conditions
 - Packing method and final product format
 
-TODO: Replace https://uniquemachinery.github.io with the final independent domain after launch.
+When the final independent domain is confirmed, replace this temporary GitHub Pages URL across canonical URLs, sitemap, robots and AI reference files.

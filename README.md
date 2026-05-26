@@ -22,8 +22,8 @@ No build step is required. The `site/` directory is the publish directory.
 - Netlify: set publish directory to `site`.
 - Traditional server: upload the contents of `site/` to the web root.
 
-## Launch TODO
+## Launch Notes
 
 - Replace `https://uniquemachinery.github.io` in canonical URLs, `sitemap.xml`, `robots.txt`, and `llms.txt` after the final independent domain is confirmed.
-- Replace placeholder media blocks with verified local product videos, factory photos, shipment photos and project photos.
+- Add verified local product videos, factory photos, shipment photos and project photos when available.
 - Connect the contact form to Formspree, Resend, Netlify Forms, WordPress SMTP or a custom API endpoint.

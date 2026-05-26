@@ -297,7 +297,7 @@ p {
 }
 
 .check-list li::before {
-  content: "✓";
+  content: "鉁?;
   color: var(--green);
   font-weight: 800;
   margin-right: 8px;
@@ -323,7 +323,7 @@ p {
   background: #eef5f8;
 }
 
-.placeholder {
+.media-note {
   display: grid;
   place-items: center;
   min-height: 230px;
@@ -387,6 +387,38 @@ textarea {
 
 textarea {
   min-height: 140px;
+}
+
+.field-hint {
+  display: block;
+  margin-top: 6px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.form-result {
+  margin-top: 20px;
+  padding: 18px;
+  border: 1px solid #b8d2c8;
+  border-radius: 8px;
+  background: #f0f7f4;
+}
+
+.form-result:focus {
+  outline: 2px solid var(--green);
+  outline-offset: 2px;
+}
+
+.form-result pre {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  margin: 12px 0 0;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  color: var(--ink);
+  background: var(--white);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .site-footer {
