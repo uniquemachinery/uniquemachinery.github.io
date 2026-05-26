@@ -16,4 +16,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://wanjovan98-sudo.github.io/uniquemachinery/sitemap.xml
+Sitemap: https://uniquemachinery.github.io/sitemap.xml

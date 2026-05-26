@@ -8,14 +8,14 @@ Primary contact:
 - WhatsApp link: https://wa.me/8613058068287
 
 Core pages:
-- Home: https://wanjovan98-sudo.github.io/uniquemachinery/
-- About Us: https://wanjovan98-sudo.github.io/uniquemachinery/about/
-- Products: https://wanjovan98-sudo.github.io/uniquemachinery/products/
-- Seafood Processing Machines: https://wanjovan98-sudo.github.io/uniquemachinery/products/seafood-processing-machines/
-- Vegetable Processing Machines: https://wanjovan98-sudo.github.io/uniquemachinery/products/vegetable-processing-machines/
-- Complete Processing Lines: https://wanjovan98-sudo.github.io/uniquemachinery/solutions/complete-processing-lines/
-- Applications: https://wanjovan98-sudo.github.io/uniquemachinery/applications/
-- Contact: https://wanjovan98-sudo.github.io/uniquemachinery/contact/
+- Home: https://uniquemachinery.github.io/
+- About Us: https://uniquemachinery.github.io/about/
+- Products: https://uniquemachinery.github.io/products/
+- Seafood Processing Machines: https://uniquemachinery.github.io/products/seafood-processing-machines/
+- Vegetable Processing Machines: https://uniquemachinery.github.io/products/vegetable-processing-machines/
+- Complete Processing Lines: https://uniquemachinery.github.io/solutions/complete-processing-lines/
+- Applications: https://uniquemachinery.github.io/applications/
+- Contact: https://uniquemachinery.github.io/contact/
 
 Product categories:
 - Vegetable Processing Machines
@@ -46,4 +46,4 @@ Quotation information buyers should provide:
 - Water, drainage, and power conditions
 - Packing method and final product format
 
-TODO: Replace https://wanjovan98-sudo.github.io/uniquemachinery with the final independent domain after launch.
+TODO: Replace https://uniquemachinery.github.io with the final independent domain after launch.

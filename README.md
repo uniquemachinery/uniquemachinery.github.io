@@ -24,6 +24,6 @@ No build step is required. The `site/` directory is the publish directory.
 
 ## Launch TODO
 
-- Replace `https://wanjovan98-sudo.github.io/uniquemachinery` in canonical URLs, `sitemap.xml`, `robots.txt`, and `llms.txt` after the final independent domain is confirmed.
+- Replace `https://uniquemachinery.github.io` in canonical URLs, `sitemap.xml`, `robots.txt`, and `llms.txt` after the final independent domain is confirmed.
 - Replace placeholder media blocks with verified local product videos, factory photos, shipment photos and project photos.
 - Connect the contact form to Formspree, Resend, Netlify Forms, WordPress SMTP or a custom API endpoint.
