@@ -16,4 +16,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://zibounique.mintlify.app/sitemap.xml
+Sitemap: https://wanjovan98-sudo.github.io/uniquemachinery/sitemap.xml
