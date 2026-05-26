@@ -297,7 +297,7 @@ p {
 }
 
 .check-list li::before {
-  content: "鉁?;
+  content: "閴?;
   color: var(--green);
   font-weight: 800;
   margin-right: 8px;
@@ -321,6 +321,44 @@ p {
 .data-table th {
   color: var(--blue-2);
   background: #eef5f8;
+}
+
+.article-body {
+  max-width: 880px;
+}
+
+.article-body h2 {
+  margin-top: 34px;
+}
+
+.article-body h3 {
+  margin-top: 24px;
+}
+
+.direct-answer {
+  padding: 20px;
+  border-left: 4px solid var(--green);
+  border-radius: 8px;
+  background: var(--soft);
+}
+
+.process-flow {
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  color: var(--blue-2);
+  background: var(--white);
+  font-weight: 800;
+}
+
+.resource-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resource-card .eyebrow {
+  margin: 0;
 }
 
 .media-note {
