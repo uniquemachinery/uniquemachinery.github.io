@@ -33,21 +33,26 @@
         </ul>
         <p><a href="mailto:Miameng@zibounique.com?subject=Food%20Processing%20Machinery%20Inquiry&body=Name%3A%0ACountry%3A%0AWhatsApp%3A%0AProduct%20Interested%20In%3A%0ARequired%20Capacity%3A%0AMessage%3A" class="button secondary">Use Email Fallback</a></p>
       </div>
-      <form class="card" data-inquiry-form>
+      <form class="card" data-inquiry-form action="https://formsubmit.co/Miameng@zibounique.com" method="POST">
         <h2>Get a Quote</h2>
+        <input type="hidden" name="_subject" value="New Unique Machinery Website Inquiry">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://uniquemachinery.github.io/thank-you/">
+        <input type="text" name="_honey" tabindex="-1" autocomplete="off" class="honey-field" aria-hidden="true">
         <div class="form-grid">
           <div class="form-field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
           <div class="form-field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
           <div class="form-field"><label for="whatsapp">WhatsApp / Phone</label><input id="whatsapp" name="whatsapp" autocomplete="tel"></div>
           <div class="form-field"><label for="country">Country</label><input id="country" name="country" autocomplete="country-name"></div>
-          <div class="form-field"><label for="product">Product Interested In</label><select id="product" name="product"><option>Vegetable Processing Machines</option><option>Seafood Processing Machines</option><option>Complete Processing Line</option><option>Central Kitchen Equipment</option><option>Meat Processing Machines</option><option>Packing and Weighing Machines</option></select></div>
-          <div class="form-field"><label for="capacity">Required Capacity</label><input id="capacity" name="capacity" aria-describedby="capacity-help"><small id="capacity-help" class="field-hint">Example: 500 kg/h or 2 tons/day.</small></div>
+          <div class="form-field"><label for="product">Product Interested In</label><select id="product" name="Product Interested In"><option>Vegetable Processing Machines</option><option>Seafood Processing Machines</option><option>Complete Processing Line</option><option>Central Kitchen Equipment</option><option>Meat Processing Machines</option><option>Packing and Weighing Machines</option></select></div>
+          <div class="form-field"><label for="capacity">Required Capacity</label><input id="capacity" name="Required Capacity" aria-describedby="capacity-help"><small id="capacity-help" class="field-hint">Example: 500 kg/h or 2 tons/day.</small></div>
           <div class="form-field full"><label for="message">Message</label><textarea id="message" name="message" aria-describedby="message-help" required></textarea><small id="message-help" class="field-hint">Tell us your raw material, process steps, voltage, water and drainage conditions.</small></div>
         </div>
         <button class="primary" type="submit">Submit Inquiry</button>
         <div class="form-result" data-inquiry-result tabindex="-1" hidden>
           <h3>Your inquiry message is ready.</h3>
-          <p>Please send it via WhatsApp. If WhatsApp does not open, use the email option below.</p>
+          <p data-form-status>Please send it via WhatsApp. If WhatsApp does not open, use the email option below.</p>
           <div class="cta-row"><a class="button primary" data-whatsapp-result href="https://wa.me/8613058068287">Send on WhatsApp</a><a class="button secondary" data-email-result href="mailto:Miameng@zibounique.com">Send by Email</a></div>
           <pre data-message-preview></pre>
         </div>

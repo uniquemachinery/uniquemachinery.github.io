@@ -396,6 +396,14 @@ textarea {
   font-size: 13px;
 }
 
+.honey-field {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
 .form-result {
   margin-top: 20px;
   padding: 18px;
