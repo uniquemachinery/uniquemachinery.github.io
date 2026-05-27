@@ -1,15 +1,18 @@
 :root {
-  --blue: #12385f;
-  --blue-2: #0b2744;
-  --green: #1f5a4d;
-  --orange: #e87524;
-  --orange-dark: #bf5b18;
-  --ink: #17212b;
-  --muted: #5d6b78;
-  --line: #dbe3ea;
-  --soft: #f4f8fb;
+  --blue: #0b1f33;
+  --blue-2: #071827;
+  --steel: #132f4c;
+  --green: #007f7f;
+  --teal: #00a6a6;
+  --cyan: #00b8d9;
+  --orange: #f97316;
+  --orange-dark: #d85b0d;
+  --ink: #102033;
+  --muted: #52616b;
+  --line: #d7e2ea;
+  --soft: #f5f8fa;
   --white: #ffffff;
-  --shadow: 0 12px 28px rgba(18, 56, 95, 0.12);
+  --shadow: 0 18px 42px rgba(7, 24, 39, 0.14);
 }
 
 * {
@@ -25,7 +28,7 @@ body {
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
-  background: var(--white);
+  background: #fbfdff;
 }
 
 a {
@@ -77,29 +80,39 @@ img {
   position: sticky;
   top: 0;
   z-index: 20;
-  background: rgba(255, 255, 255, 0.97);
-  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(19, 47, 76, 0.12);
+  backdrop-filter: blur(14px);
+  box-shadow: 0 8px 26px rgba(7, 24, 39, 0.06);
 }
 
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
-  padding: 16px 0;
+  gap: 12px;
+  padding: 10px 0;
   color: var(--blue);
   font-weight: 800;
   letter-spacing: 0;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  color: var(--white);
-  background: var(--green);
-  font-weight: 800;
+.brand-logo {
+  width: auto;
+  height: 52px;
+  object-fit: contain;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-text small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -131,7 +144,8 @@ button {
 .button.primary,
 button.primary {
   color: var(--white);
-  background: var(--orange);
+  background: linear-gradient(135deg, var(--orange), #e66a2c);
+  box-shadow: 0 10px 22px rgba(249, 115, 22, 0.22);
 }
 
 .button.primary:hover,
@@ -143,17 +157,33 @@ button.primary:hover {
 .button.secondary {
   color: var(--blue);
   background: var(--white);
-  border-color: var(--line);
+  border-color: rgba(19, 47, 76, 0.18);
 }
 
 .button.dark {
   color: var(--white);
-  background: var(--green);
+  background: linear-gradient(135deg, var(--green), var(--teal));
 }
 
 .hero {
-  background: linear-gradient(90deg, #eef5f8 0%, #ffffff 62%);
-  border-bottom: 1px solid var(--line);
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(7, 24, 39, 0.94), rgba(11, 31, 51, 0.9) 48%, rgba(0, 166, 166, 0.26)),
+    radial-gradient(circle at 82% 18%, rgba(0, 184, 217, 0.34), transparent 28%),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(0deg, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: auto, auto, 44px 44px, 44px 44px;
+  border-bottom: 1px solid rgba(0, 184, 217, 0.22);
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: auto -10% -38% 35%;
+  height: 360px;
+  background: radial-gradient(circle, rgba(0, 184, 217, 0.22), transparent 64%);
+  pointer-events: none;
 }
 
 .hero-grid,
@@ -165,11 +195,13 @@ button.primary:hover {
 }
 
 .hero-grid {
+  position: relative;
+  z-index: 1;
   padding: 64px 0;
 }
 
 .eyebrow {
-  color: var(--green);
+  color: var(--teal);
   font-weight: 800;
   text-transform: uppercase;
   font-size: 13px;
@@ -204,6 +236,21 @@ p {
   font-size: 19px;
 }
 
+.hero h1,
+.hero .lead,
+.hero .contact-strip,
+.hero .contact-strip a {
+  color: var(--white);
+}
+
+.hero .lead {
+  color: #d9e7ef;
+}
+
+.hero .eyebrow {
+  color: #62e4e4;
+}
+
 .hero-actions,
 .cta-row {
   display: flex;
@@ -222,8 +269,8 @@ p {
 
 .machine-photo {
   background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  border: 1px solid rgba(0, 184, 217, 0.22);
+  border-radius: 14px;
   box-shadow: var(--shadow);
   padding: 18px;
 }
@@ -258,8 +305,16 @@ p {
   height: 100%;
   padding: 24px;
   background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 8px;
+  border: 1px solid rgba(19, 47, 76, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(7, 24, 39, 0.06);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(0, 166, 166, 0.28);
+  box-shadow: 0 18px 38px rgba(7, 24, 39, 0.11);
 }
 
 .card img {
@@ -286,7 +341,7 @@ p {
   padding: 6px 10px;
   border-radius: 999px;
   color: var(--blue-2);
-  background: #e7f0f4;
+  background: #e3f7f7;
   font-weight: 700;
   font-size: 14px;
 }
@@ -386,7 +441,7 @@ p {
 
 .page-title {
   padding: 54px 0;
-  background: var(--soft);
+  background: linear-gradient(135deg, #eef6f8, #ffffff 62%);
   border-bottom: 1px solid var(--line);
 }
 
@@ -470,7 +525,9 @@ textarea {
 .site-footer {
   padding: 48px 0 88px;
   color: #d9e6ee;
-  background: var(--blue-2);
+  background:
+    linear-gradient(135deg, #071827, #102a43),
+    linear-gradient(90deg, rgba(255,255,255,0.04) 1px, transparent 1px);
 }
 
 .footer-grid {
@@ -483,6 +540,55 @@ textarea {
 .site-footer h3,
 .site-footer a {
   color: var(--white);
+}
+
+.footer-logo {
+  width: auto;
+  height: 42px;
+  margin-bottom: 14px;
+  background: var(--white);
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.video-card {
+  padding: 14px;
+  border: 1px solid rgba(0, 184, 217, 0.2);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #ffffff, #f6fbfc);
+  box-shadow: var(--shadow);
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 18px;
+  background: var(--blue-2);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.feature-points {
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  margin: 18px 0 0;
+  list-style: none;
+}
+
+.feature-points li {
+  padding: 10px 12px;
+  border-left: 3px solid var(--teal);
+  border-radius: 6px;
+  background: #eef8f8;
+  color: var(--blue-2);
+  font-weight: 700;
 }
 
 .site-footer ul {
@@ -557,6 +663,10 @@ textarea {
   .nav {
     gap: 12px;
     font-size: 14px;
+  }
+
+  .brand-logo {
+    height: 42px;
   }
 
   .header-actions {
