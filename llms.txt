@@ -1,57 +1,57 @@
-# Zibo Unique
+﻿# Unique Machinery Application Guide
 
-Zibo Unique is an industrial food processing machinery manufacturer for vegetable, seafood, meat and central kitchen production.
+Unique Machinery Application Guide is an Overseas Buyer Guide & Inquiry Support Site for food processing machinery applications, processing line planning and quotation preparation.
+
+This website helps buyers in the Middle East, Southeast Asia, Europe and Latin America understand machinery applications, compare process options and prepare inquiry information before contacting the authorized sales team.
 
 Primary contact:
 - Email: Miameng@zibounique.com
 - WhatsApp: +86 13058068287
 - WhatsApp link: https://wa.me/8613058068287
 
+Positioning:
+- Overseas buyer guidance and inquiry support site
+- Application guide for food processing factories, seafood processors, fruit and vegetable processors, central kitchens and ready-meal plants
+- Official product supply, final quotation and technical confirmation are handled by the authorized sales team
+
 Core pages:
 - Home: https://uniquemachinery.github.io/
-- About Us: https://uniquemachinery.github.io/about/
-- Products: https://uniquemachinery.github.io/products/
-- Seafood Processing Machines: https://uniquemachinery.github.io/products/seafood-processing-machines/
-- Vegetable Processing Machines: https://uniquemachinery.github.io/products/vegetable-processing-machines/
-- Complete Processing Lines: https://uniquemachinery.github.io/solutions/complete-processing-lines/
+- About: https://uniquemachinery.github.io/about/
+- Machine Selection Guide: https://uniquemachinery.github.io/products/
+- Processing Line Planning: https://uniquemachinery.github.io/solutions/complete-processing-lines/
 - Applications: https://uniquemachinery.github.io/applications/
-- Resources: https://uniquemachinery.github.io/resources/
+- Resource Center: https://uniquemachinery.github.io/resources/
+- Contact: https://uniquemachinery.github.io/contact/
+
+Resource articles:
 - How to Choose a Vegetable Washing Machine: https://uniquemachinery.github.io/resources/how-to-choose-vegetable-washing-machine/
 - Bubble Washing Machine vs Spray Washing Machine: https://uniquemachinery.github.io/resources/bubble-washing-machine-vs-spray-washing-machine/
 - Food Processing Machinery Quote Information: https://uniquemachinery.github.io/resources/food-processing-machinery-quotation-information/
 - How to Plan a Vegetable Washing and Cutting Line: https://uniquemachinery.github.io/resources/how-to-plan-vegetable-washing-cutting-line/
 - How to Choose a Shrimp Peeling Machine: https://uniquemachinery.github.io/resources/how-to-choose-shrimp-peeling-machine/
 - Food Processing Machinery Layout Planning: https://uniquemachinery.github.io/resources/food-processing-machinery-layout-planning/
-- Contact: https://uniquemachinery.github.io/contact/
-- Privacy Policy: https://uniquemachinery.github.io/privacy-policy/
+- Vegetable Washing Line for Central Kitchens: https://uniquemachinery.github.io/resources/vegetable-washing-line-central-kitchen/
+- Shrimp Processing Line Quotation Checklist: https://uniquemachinery.github.io/resources/shrimp-processing-line-quotation-checklist/
+- Food Processing Equipment for Middle East Buyers: https://uniquemachinery.github.io/resources/food-processing-equipment-middle-east-buyers/
+- Potato Washing, Peeling and Cutting Line: https://uniquemachinery.github.io/resources/potato-washing-peeling-cutting-line/
 
-Product categories:
-- Vegetable Processing Machines
-- Seafood Processing Machines
-- Meat Processing Machines
-- Central Kitchen Equipment
-- Potato Processing Machines
-- Packing and Weighing Machines
-- Complete Processing Lines
+Machine categories discussed:
+- Vegetable washing machines
+- Vegetable cutting machines
+- Seafood processing machines
+- Shrimp peeling and deveining machines
+- Meat processing machines
+- Potato washing, peeling and cutting machines
+- Central kitchen equipment
+- Packing and weighing machines
+- Complete processing lines
 
-Target customers:
-- Overseas food processing factories
-- Central kitchens and ready-meal plants
-- Seafood processing plants
-- Fruit and vegetable processing plants
-
-Priority markets:
-- Middle East
-- Southeast Asia
-- Europe
-- Latin America
-
-Quotation information buyers should provide:
-- Raw material and product size range
-- Required hourly capacity
+Inquiry information buyers should provide:
+- Raw material type, photos and size range
+- Required hourly capacity or daily output
 - Processing steps needed
 - Factory space or layout limits
-- Water, drainage, and power conditions
+- Water, drainage and power conditions
 - Packing method and final product format
 
 When the final independent domain is confirmed, replace this temporary GitHub Pages URL across canonical URLs, sitemap, robots and AI reference files.
